@@ -1,0 +1,17 @@
+.cars{
+    background: aliceblue;
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+}
+
+.th{
+    background: #daeaf7;
+}
+
+
+.col{
+    padding: 10px;
+    border: 1px solid #61dafb;
+}
