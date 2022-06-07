@@ -1,27 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
     background: #A8ECC5 url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612706197_14-p-zelenii-fon-odnotonnii-gradient-15.jpg);
     height: 100%;
     line-height: 1.5;
     font-size: 17px;
+
+}
+
+h2{
+    margin-top: 0;
 }
 
 .App {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    padding: 40px 40px 10px 40px;
 }
 
-button{
+input {
     padding: 10px 15px;
-    font-weight: 600;
-    background-color: #48e88c;
-    color: #212121;
     outline: none;
     border-radius: 5px;
     border: 1px solid #199d54;
 }
 
+button{
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #199d54;
+    font-weight: 600;
+    background-color: #48e88c;
+    color: #212121;
+}
+
 button:hover{
     background-color: #8dfdba;
     cursor: pointer;
+}
+
+.task{
+    width: 46%;
+    padding: 30px;
+    border: 1px solid #38D37A;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 30px;
 }

@@ -21,8 +21,6 @@ export const Cars = (props: CarsType) => {
             </thead>
             <tbody>
             {props.topCars.map((car, index) => {
-                debugger
-
                 return (
                     <tr key={index}>
                         <td className={s.col}>{car.manufacturer}</td>
